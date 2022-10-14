@@ -2,6 +2,57 @@ html, body {
     margin: 0;
     border: 0;
     font-size: 100%;
-    background-color: #000000;
-    color: #ffffff;
-  }
+    background-color: #ffffff;
+    color: #000000;
+    min-height: 100vh;
+}
+
+/* Title */
+#banner {
+    text-align: center;
+}
+
+/* Nav bar */
+#menu {
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+}
+#menu>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#menu>ul>li {
+    float: left;
+}
+#menu>ul>li>a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+#content {
+    text-align: center;
+    padding-bottom: 2.5rem;     /*space for footer*/
+}
+
+#post-list {
+    padding: 0 30%;
+    list-style: none;
+    overflow: hidden;
+}
+
+#post-list>li {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.entry-content {
+    margin: 0 10%;
+    text-align: left;
+}
+
